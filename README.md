@@ -92,20 +92,25 @@ Primary monitoring bands:
 
 ---
 
-## Current Status
+## Current Progress
 
-Current milestone:
+### RF Signal Simulation
 
-### P1 — Detection MVP
+- GMSK, FSK, AM and noise signals simulated using GNU Radio
 
-Work in progress:
+### Feature Extraction
 
-- drone WiFi signal simulation
-- FPV analog simulation
-- FFT + threshold detector
-- first validation tests
+- Amplitude, phase and frequency features extracted
+- Initial analysis of discriminative features
 
----
+### Machine Learning
+
+- K-means clustering implemented for unsupervised classification
+- Preliminary grouping of modulation types achieved
+
+### Next Step
+
+- Supervised classification using Random Forest
 
 ## Experimental Validation
 
